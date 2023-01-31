@@ -1,0 +1,45 @@
+.widgets{
+    flex: 0.3;
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+
+.widgets::-webkit-scrollbar {
+    display: none;
+}
+
+.widgets__input {
+    display: flex;
+    align-items: center;
+    background-color: var(--twitter-background);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.widgets__input > input, input:hover {
+    border: none;
+    /* background-color: var(--twitter-color); */
+}
+
+.widgets__searchIcon{
+    color: gray;
+}
+
+.widgets__widgetContainer {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+}
+
+.who_to__follow{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+    
+
+}
